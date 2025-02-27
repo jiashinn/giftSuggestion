@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Who is the gift for?",
+    "options": [
+      { "label": "Friend", "name": "recipient" },
+      { "label": "Family", "name": "recipient" },
+      { "label": "Partner", "name": "recipient" },
+      { "label": "Colleague", "name": "recipient" },
+      { "label": "Child", "name": "recipient" }
+    ]
+  },
+  {
+    "question": "What is their age range?",
+    "options": [
+      { "label": "0-10", "name": "age" },
+      { "label": "11-18", "name": "age" },
+      { "label": "19-30", "name": "age" },
+      { "label": "31-50", "name": "age" },
+      { "label": "51+", "name": "age" }
+    ]
+  },
+  {
+    "question": "What are their interests or hobbies?",
+    "options": [
+      { "label": "Sports", "name": "interests" },
+      { "label": "Games", "name": "interests" },
+      { "label": "Outdoor", "name": "interests" },
+      { "label": "Reading", "name": "interests" },
+      { "label": "Netflix and Chill", "name": "interests" }
+    ]
+  },
+  {
+    "question": "What’s the occasion?",
+    "options": [
+      { "label": "Birthday", "name": "occasion" },
+      { "label": "Anniversary", "name": "occasion" },
+      { "label": "Graduation", "name": "occasion" },
+      { "label": "Holiday", "name": "occasion" },
+      { "label": "Just Because", "name": "occasion" }
+    ]
+  },
+  {
+    "question": "What is your budget range?",
+    "options": [
+      { "label": "Under $20", "name": "budget" },
+      { "label": "$20-$50", "name": "budget" },
+      { "label": "$50-$100", "name": "budget" },
+      { "label": "$100-$200", "name": "budget" },
+      { "label": "$200+", "name": "budget" }
+    ]
+  }
+]
