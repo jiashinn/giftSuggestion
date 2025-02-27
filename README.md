@@ -1,58 +1,51 @@
-🎁 Gift Suggestion App
+# 🎁 Gift Suggestion App
 
 A simple web application that helps users find the perfect gift based on recipient preferences, age, budget, and interests.
 
-🚀 Features
+## 🚀 Features
+- Interactive form to gather user preferences
+- AI-powered gift suggestions based on input
+- Clean and responsive UI
 
-Interactive form to gather user preferences
+## 🛠️ Tech Stack
+- **Frontend:** React, Tailwind CSS
+- **Backend:** Node.js, Express
+- **Database (Optional):** JSON or MongoDB
 
-AI-powered gift suggestions based on input
+## 📦 Installation
 
-Clean and responsive UI
-
-🛠️ Tech Stack
-
-Frontend: React, Tailwind CSS
-
-Backend: Node.js, Express
-
-Database (Optional): JSON or MongoDB
-
-📦 Installation
-
-Clone the repository:
-
+### Clone the repository:
+```
 git clone https://github.com/your-username/gift-suggestion.git
 cd gift-suggestion
-
-Install dependencies:
+```
 
 Frontend:
-
-cd frontend  
-npm install  
-npm run dev  
-
+```
+  cd frontend  
+  npm install  
+  npm run dev  
+```
 Backend:
+```
+  cd backend  
+  npm install  
+  npm run dev
+```
+## 🔗 API Endpoints
 
-cd backend  
-npm install  
-npm run dev
+- POST /api/gift-suggestions – Accepts user preferences and returns gift ideas.
 
-🔗 API Endpoints
+## 🛠️ Troubleshooting
 
-POST /api/gift-suggestions – Accepts user preferences and returns gift ideas.
+- If API requests fail, ensure your backend is running on localhost:8080.
 
-🛠️ Troubleshooting
+- Check CORS settings if using external APIs.
 
-If API requests fail, ensure your backend is running on localhost:8080.
+## 💡 Future Improvements
 
-Check CORS settings if using external APIs.
+- User authentication for personalized recommendations
 
-💡 Future Improvements
-
-User authentication for personalized recommendations
-
-Integration with shopping platforms like Amazon
+- Integration with shopping platforms like Amazon
 
 
